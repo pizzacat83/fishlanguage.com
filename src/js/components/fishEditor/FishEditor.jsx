@@ -51,7 +51,7 @@ class FishEditor extends React.Component {
 	render() {
 		return (
 			<Layout>
-				<div className="fish-code-editor col">
+				<div className="fish-code-editor fish-code col">
 					<textarea
 					  className="form-control"
 					  ref={(textarea) => this.editor = textarea}

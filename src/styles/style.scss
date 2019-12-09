@@ -66,9 +66,11 @@ html {
 	overflow-y: auto;
 }
 
-.fish-code-editor {
-	font-family: monospace;
+.fish-code {
+	font-family: "Monaco", "Consolas", monospace;
+}
 
+.fish-code-editor {
 	textarea {
 		height: 25rem;
 	}

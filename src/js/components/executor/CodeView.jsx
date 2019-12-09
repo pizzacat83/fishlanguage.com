@@ -12,7 +12,7 @@ import React from "react";
 
 function CodeView({grid, instructionPointer}) {
 	return (
-		<table className="fish-program-code-view text-center">
+		<table className="fish-program-code-view fish-code text-center">
 			<tbody>
 				{grid.map((row, y) => (
 					<tr key={y}>
