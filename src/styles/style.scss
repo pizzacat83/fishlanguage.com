@@ -14,12 +14,16 @@ html {
 	.fish-code-cell {
 		border: solid #f0f0f0 1px;
 		width: 20px;
-		height: 20px;
+		height: 30px;
 		text-align: center;
 	}
 
 	.fish-code-cell.active {
 		background-color: red;
+	}
+
+	.fish-code-cell.outside:not(.active) {
+		background-color: lightgray;
 	}
 }
 
