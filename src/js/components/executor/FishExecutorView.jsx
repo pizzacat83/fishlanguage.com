@@ -68,6 +68,7 @@ class FishExecutorView extends React.Component {
 		this.setState({
 			grid: e.grid,
 			instructionPointer: e.instructionPointer,
+			program: e.program,
 			inputBuffer: e.inputBuffer,
 			stackSnapshot: e.stackSnapshot,
 			output: e.output,
@@ -99,6 +100,7 @@ class FishExecutorView extends React.Component {
 				<div className="fish-code-executor-view col">
 					<CodeView
 					  grid={this.state.grid}
+					  program={this.state.program}
 					  instructionPointer={this.state.instructionPointer}
 					  />
 					<ExecutorControls

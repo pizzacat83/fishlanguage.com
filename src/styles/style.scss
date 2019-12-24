@@ -21,6 +21,10 @@ html {
 	.fish-code-cell.active {
 		background-color: red;
 	}
+
+	.fish-code-cell.outside:not(.active) {
+		background-color: lightgray;
+	}
 }
 
 .fish-program-executor-controls {
